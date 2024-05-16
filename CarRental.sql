@@ -13,7 +13,6 @@ SQL Tables:
 • RegistrationDate: Date when the customer registered.
 */
 
-
 CREATE TABLE Customer (
     CustomerID INT PRIMARY KEY IDENTITY(1, 1),
     FirstName VARCHAR(50) NOT NULL,
@@ -21,7 +20,7 @@ CREATE TABLE Customer (
     Email VARCHAR(100) NOT NULL,
     PhoneNumber VARCHAR(15) NOT NULL,
     Address VARCHAR(255) NOT NULL,
-    Username VARCHAR(50) NOT NULL,
+    Username VARCHAR(255) NOT NULL,
     Password VARCHAR(255) NOT NULL,
     RegistrationDate DATETIME NOT NULL
 );
@@ -106,8 +105,8 @@ insert into Vehicle values
 ('Virtus','Honda','2022','Black','CDEF582',0,70.00);
 
 insert into Reservation values
-(1,1,'2024-07-22','2024-04-24',150.00,'Completed'),
-(2,2,'2024-08-12','2024-08-15',280.00,'Confirmed');
+(1,1,'2024-07-23','2024-04-24',150.00,'Completed'),
+(2,2,'2024-08-15','2024-08-15',280.00,'Confirmed');
 
 insert into [Admin] values
 ('Swathi','Rani','srm@example.com',9234456139,'SwathiR','rani1234','DB Admin','2024-02-07'),
