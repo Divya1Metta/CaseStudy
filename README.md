@@ -1,6 +1,6 @@
 # CarConnect, a Car Rental Platform
 
-• Follow object-oriented principles throughout the Java programming assignments. Use classes
+• Follow object-oriented principles throughout the python programming assignments. Use classes
 and objects to model real-world entities, encapsulate data and behavior, and ensure code
 reusability.
 • Throw user defined exception from method and handle in the main method.
